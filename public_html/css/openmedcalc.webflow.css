@@ -156,7 +156,7 @@ a {
 }
 
 .div-block {
-  height: 30vh;
+  min-height: 30vh;
   text-align: left;
   font-family: IBM Plex Mono, sans-serif;
   font-size: 18px;
@@ -234,10 +234,11 @@ a {
   max-width: var(--smaller-container-width);
   aspect-ratio: auto;
   text-align: left;
-  margin-bottom: 1108px;
   padding-bottom: 0;
   display: block;
   overflow: visible;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .typeform-wrapper-xbmxe4tu {
